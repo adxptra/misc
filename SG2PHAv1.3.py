@@ -1,3 +1,4 @@
+# Script to Convert Phase Pick format SG2K to PHA format
 def readfin(fin):
     with open(fin) as f:
         lines = [line.split() for line in f]
